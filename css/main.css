@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-color: #fdf5f4; */
+    font-family: Calibri;
+}
+.SteelBlue {
+    background-color: #4682b4;
+}
+.AliceBlue {
+    background-color: #f0f8ff;
+}
+
+.SteelBlue h2 {
+    color: #f0f8ff;
+}
+.AliceBlue h2 {
+    color: #000;
+}
+h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding: 30px 0;
+}
+
+@media screen and (min-width: 740px) and (max-width: 1239px) {
+    #about-me img {
+        object-fit: contain;
+    }
+    .title .interview h1 {
+        font-size: 39px;
+    }
+    .title .interview h4 {
+        font-size: 30px;
+    }
+    .title .interview span {
+        font-size: 19px;
+    }
+    .title .interview p {
+        font-size: 14px;
+    }
+    #contact .thank-you h3 {
+        padding-left: 75px;
+    }
+    #contact .thank-you h4 {
+        text-align: center;
+        font-size: 56px;
+        padding-left: 0;
+    }
+    #contact .box p {
+        font-size: 21px;
+    }
+    .event-name a {
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 739px) {
+    #nav {
+        display: none;
+        min-height: 12px;
+    }
+    #nav a {
+        display: none;
+    }
+    .about-me-pc {
+        display: none;
+    }
+    .about-me-mobile {
+        display: block;
+    }
+    #contact .thank-you h3 {
+        padding-left: 26px;
+        font-size: 40px;
+        letter-spacing: 23px;
+    }
+    #contact .thank-you h4 {
+        padding: 0;
+        font-size: 26px;
+        text-align: center;
+    }
+    #contact .box p {
+        font-size: 11px;
+    }
+    #contact .box .address p {
+        font-size: 20px;
+    }
+
+    .interview i {
+        font-size: 17px;
+    }
+    .interview h1 {
+        font-size: 27px;
+    }
+    .interview h4 {
+        font-size: 21px;
+    }
+    .interview span {
+        font-size: 13px;
+    }
+
+    .about-me-mobile {
+        display: flex;
+        align-items: center;
+    }
+    .about-me-mobile p {
+        text-align: justify;
+        padding-top: 60px;
+        font-size: 11px;
+    }
+    .event-name a {
+        display: none;
+        font-size: 5px;
+    }
+    .social-list {
+        margin-top: 24px;
+        margin-bottom: 1px;
+    }
+    .social-list a {
+        text-decoration: none;
+        font-size: 20px;
+        margin: 0 24px;
+    }
+    .about-me-mobile .social-list a {
+        color: #000;
+        margin: 0 12px;
+    }
+    #contact .social-list {
+        display: none;
+    }
+}

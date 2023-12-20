@@ -1,0 +1,17 @@
+/* certificate */
+#certificate {
+    padding-bottom: 20px;
+}
+
+#certificate .pgwSlider img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.event-name a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    color: #f0f8ff;
+}
