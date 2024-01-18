@@ -1,5 +1,7 @@
 /* Qualification */
-
+#qualification{
+    margin: 0;
+}
 #qualification img {
     width: 100%;
 }
